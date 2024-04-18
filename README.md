@@ -1,0 +1,3 @@
+## Claim Token Challenge
+
+**Assume there is a rewards program for users, so they get some tokens by doing some actions. Their actions are saved by a database. The users can go to a webpage and claim their rewards -- the server checks the amount to redeem, at which point it signs the message to allow it to go through. The following Smart Contract enables users to claim those tokens after receiving a signed message by a trusted wallet (signature made by our secured backend and then passed to the FE to construct the Tx parameters). It has some vulnerabilities in the claimToken function. Find those issues, explain them and propose changes to fix them.**
